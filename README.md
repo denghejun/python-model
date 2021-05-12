@@ -10,7 +10,7 @@ We have two repos
 - [go-app](https://github.com/denghejun/python-in-go): Application based on golang, will interact
   with [python-model](https://github.com/denghejun/python-model)
 
-For this repo, we assume we just need do some changes as usually we do. E.g. we did some changes in
+For this repo, we assume we just need do some changes as usually we did. E.g. we did some changes in
 src/package_a/foo.py. After that, we need to build a latest `python-model` image based on new version number:
 
 ```
