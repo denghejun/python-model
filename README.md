@@ -11,7 +11,7 @@ We have two repos
   with [python-model](https://github.com/denghejun/python-model)
 
 For this repo, we assume we just need do some changes as usually we did. E.g. we did some changes in
-src/package_a/foo.py. After that, we need to build a latest `python-model` image based on new version number:
+src/package_a/foo.py. After that, we need to build a latest `python-model` image based on a new version number:
 
 ```
 docker build --no-cache --progress=plain -t python-model:v1.0.1 -f docker/python/Dockerfile .
