@@ -13,4 +13,6 @@ We have two repos
 For this repo, we assume we just need do some changes as usually we do. E.g. we did some changes in
 src/package_a/foo.py. After that, we need to build a latest `python-model` image based on new version number:
 
-- `docker build --no-cache --progress=plain -t python-model:v1.0.1 -f docker/python/Dockerfile .`
+```
+docker build --no-cache --progress=plain -t python-model:v1.0.1 -f docker/python/Dockerfile .
+```
