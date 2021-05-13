@@ -8,3 +8,4 @@ COPY ${SRC} ${WORKDIR}
 WORKDIR ${WORKDIR}
 RUN python3 setup.py sdist --formats=gztar -d __dist__
 RUN echo ✅ ✅ ✅ ✅ Successfully created dist at: && cd __dist__ && ls -d $PWD/*
+ENTRYPOINT echo ✅ ✅ ✅ ✅ Successfully created dist at: && cd __dist__ && ls -d $PWD/*
