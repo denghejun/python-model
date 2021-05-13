@@ -14,5 +14,5 @@ For this repo, we assume we just need do some changes as usually we did. E.g. we
 src/package_a/foo.py. After that, we need to build a latest `python-model` image based on a new version number:
 
 ```
-docker build --no-cache --progress=plain -t python-model:v1.0.1 -f docker/python/Dockerfile .
+docker build --build-arg DIST_FILE_NAME=python-model.tar.gz --no-cache --progress=plain -t python-model:v1.0.1 -f docker/python/Dockerfile .
 ```
